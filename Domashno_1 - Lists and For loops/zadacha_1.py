@@ -7,6 +7,10 @@ for i in range(len(numbers)):
             if numbers[i] % 5 != 0:
                 special_numbers.append(numbers[i])
 
+# for i in numbers:
+#     if(i > 20 and i % 3 == 0 and i % 5 != 0):
+#         special_numbers.append(i)
+
 print("Special numbers:")
 for num in special_numbers:
     print(num)
