@@ -7,7 +7,7 @@ for i in range(len(words)):
     is_palindrome = True
     while left < right:
         if words[i][left] != words[i][right]:
-            is_pal = False
+            is_palindrome = False
             break
         left += 1
         right -= 1
